@@ -68,6 +68,10 @@ docs/_build/
 # PyBuilder
 target/
 
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
