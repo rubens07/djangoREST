@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rest Framework - JQuery</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h3 class="text-info">Consumindo API com JQuery</h3>
+
+        <ul class="list-grid" id="autores"></ul>
+    </div>
+
+    <script type="text/javascript" src='{% static "js/jquery.js" %}'></script>
+    <script type="text/javascript" src='{% static "js/popper.js" %}'></script>
+    <script type="text/javascript" src='{% static "js/bootstrap.js" %}'></script>
+    {% block scripts %}{% endblock scripts %}
+</body>
+</html>
